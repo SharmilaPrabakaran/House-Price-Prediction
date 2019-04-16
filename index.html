@@ -1,0 +1,48 @@
+<html>
+
+<head>
+   <title>House Price Prediction form</title>
+
+  <style>
+        form {
+          /* Just to center the form on the page */
+          margin: 0 auto;
+          width: 400px;
+          /* To see the outline of the form */
+          padding: 2em;
+          border: 1px solid #CCC;
+          border-radius: 1em;
+        }
+        form div + div {
+              margin-top: 1.5em;
+            }
+       button {
+           /* This extra margin represent roughly the same space as the space between the labels and their text fields */
+           text-transform: uppercase;
+           margin-left: 15em;
+           cursor: pointer;
+         }
+  </style>
+
+
+  <h3><center> House Price Prediction in King County</center></h3>
+
+
+</head>
+
+<body>
+  <form action="file:///Users/sharmi/Desktop/Program/py3proj/house_price_prediction/templates/result.html" method="post">
+
+    <div>
+      <label for = "sqft"> Enter the square feet of the home:</label>
+      <input type="text" id = "sqft" name = "sq_ft">
+    </div>
+    <div>
+      <button type = "submit"> Submit </button>
+    </div>
+
+
+  </form>
+</body>
+
+</html>
