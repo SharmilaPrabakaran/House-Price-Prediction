@@ -1,0 +1,20 @@
+<html>
+  <style>
+div{
+    position:fixed;
+    width:780px;
+    height:650px;
+    left:50%;
+    top:50%;
+    margin-left:-200px;
+    margin-top:-320px;
+}
+</style>
+  
+<body>
+<div>
+   <h3> Predicted Price:  {{ prediction }}</h3>
+   <a href = '{{ url_for('index')}}'> Back </a>
+</div>
+</body>
+</html>
