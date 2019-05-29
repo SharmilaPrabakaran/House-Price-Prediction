@@ -31,16 +31,15 @@
 </head>
 
 <body>
-  <form action="file:///Users/sharmi/Desktop/Program/py3proj/house_price_prediction/templates/result.html" method="post">
+  <form action="{{url_for('predict')}}" method="post">
 
     <div>
       <label for = "sqft"> Enter the square feet of the home:</label>
-      <input type="text" id = "sqft" name = "sq_ft">
+      <input type="text" id = "sqft" name = "sqft">
     </div>
     <div>
       <button type = "submit"> Submit </button>
     </div>
-
 
   </form>
 </body>
