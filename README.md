@@ -1,6 +1,6 @@
 # House-Price-Prediction
 
-Predicting house prices using Regression
+Predicting house prices using Regression.
 This project applies machine learning concepts on King County houseprice dataset to predict the selling price of a new home.
 
 Software and Libraries
