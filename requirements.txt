@@ -1,0 +1,6 @@
+python 2.7
+flask
+requests
+pandas
+scikit-learn
+numpy
