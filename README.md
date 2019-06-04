@@ -7,7 +7,6 @@ Software and Libraries
 This project uses the following libraries:
 * Python
 * Flask
-* NumPy
 * pandas
 * scikit-learn
 
